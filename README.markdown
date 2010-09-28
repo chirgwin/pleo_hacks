@@ -13,7 +13,7 @@ Since I found it very difficult to find resources when writing this stuff, I'm s
 
 Code contributions and feedback are welcome.
 
-Building 
+Building
 --------
 The version used in the demonstration is phonotaxis_03.
 Other directories contain experimental applications.
@@ -27,16 +27,18 @@ Copy the entire 'examples' directory into the 'PleoDevelopmentKit' directory
 (possibly replacing the default 'examples' directory).
 
 The Pleo program can be compiled with:
+
 `cd examples/phonotaxis_03`
-`sh ../build.sh phonotaxis_03 `
+
+`sh ../build.sh phonotaxis_03`
 
 
 Running
 -------
 To run on a Pleo:
-1) copy all of the contents of 'examples/phonotaxis_03/build/' to the root directory of an SD Card.
-2) Insert SD card in Pleo.
-3) Turn Pleo on.
+1. copy all of the contents of `examples/phonotaxis_03/build/` to the root directory of an SD Card.
+2. Insert SD card in Pleo.
+3. Turn Pleo on.
 
 
 
