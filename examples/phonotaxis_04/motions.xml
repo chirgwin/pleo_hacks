@@ -1,0 +1,10 @@
+<enum max="32767" min="8192" name="motion" namesoff="true" short="mot">
+  <e id=" 8192" name="kiss" />
+  <e id=" 8193" name="com_walk_fs" />
+  <e id=" 8194" name="com_walk_fl_2a" />
+  <e id=" 8195" name="com_walk_fr_2a" />
+  <e id=" 8196" name="com_walk_bl_2a" />
+  <e id=" 8197" name="com_walk_br_2a" />
+  <e id=" 8197" name="headright" />
+  <e id=" 8197" name="headleft" />
+</enum>

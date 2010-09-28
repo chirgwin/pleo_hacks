@@ -1,0 +1,35 @@
+<ugobe_project name="touch_test">
+
+  <options>
+    <set name="top" value="../.." />
+    <include value="./include:${top}/include" />
+    <tools>
+     <pawn value="pawncc %i -V2048 -O2 -S64 -v2 -C- %I TARGET=100 -o%o" />
+    </tools>
+    <directories>
+      <build value="build" />
+      <include value="include" />
+    </directories>
+    <sound adpcm="true" frequency="44100" pitch="true"/>
+    <motion version="3" />
+    <folders />
+  </options>
+
+  <set-default name="MEDIA" value="../../media" />
+
+  <set name="SOUNDS" value="${MEDIA}/sounds" />
+  <set name="MOTIONS" value="${MEDIA}/motions" />
+  <set name="SCRIPTS" value="${MEDIA}/scripts" />
+
+  <resources>
+
+    <!-- Sounds -->
+    <sound path="${SOUNDS}/humanbot.wav" />
+
+    <!-- Motions -->
+
+    <!-- Scripts -->
+    <script path="sensors.p" />
+
+  </resources>
+</ugobe_project>

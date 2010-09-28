@@ -1,0 +1,5 @@
+<enum max="32767" min="8192" name="motion" namesoff="true" short="mot">
+  <e id=" 8192" name="headleft" />
+  <e id=" 8193" name="headright" />
+  <e id=" 8194" name="hungry_search" />
+</enum>

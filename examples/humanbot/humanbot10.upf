@@ -1,0 +1,36 @@
+<ugobe_project name="pleo">
+
+  <options>
+    <set name="top" value="../.." />
+    <include value="./include:${top}/include" />
+    <tools>
+     <pawn value="pawncc32 %i -O1 -S64 -v2 -C- %I TARGET=100 -o%o" />
+     <block value="pleocc -b512 -v %i" />
+    </tools>
+    <directories>
+      <build value="build10" />
+      <include value="include" />
+    </directories>
+    <umf value="3" />
+    <block />
+    <folders />
+  </options>
+
+  <set-default name="MEDIA" value="../../media" />
+
+  <set name="SOUNDS" value="${MEDIA}/sounds" />
+  <set name="MOTIONS" value="${MEDIA}/motions" />
+  <set name="SCRIPTS" value="${MEDIA}/scripts" />
+
+  <resources>
+
+    <!-- Sounds -->
+    <sound path="${SOUNDS}/humanbot.wav" />
+
+    <!-- Motions -->
+
+    <!-- Scripts -->
+    <script path="sensors.p" />
+
+  </resources>
+</ugobe_project>

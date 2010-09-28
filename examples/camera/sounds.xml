@@ -1,0 +1,6 @@
+<enum max="32767" min="4096" name="sound" namesoff="true" short="snd">
+  <e id=" 4096" name="moo" />
+  <e id=" 4097" name="kisses" />
+  <e id=" 4098" name="french_horn_01" />
+  <e id=" 4099" name="french_horn_02" />
+</enum>
