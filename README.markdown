@@ -41,4 +41,7 @@ To run on a Pleo:
 3. Turn Pleo on.
 
 
+![Pleos hording](pleo_hord.jpg "Pleo hord")
+
+
 
