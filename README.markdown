@@ -41,7 +41,7 @@ To run on a Pleo:
 3. Turn Pleo on.
 
 
-![Pleos hording](pleo_hord.jpg "Pleo hord")
+![Pleos hording](http://github.com/chirgwin/pleo_hacks/raw/master/pleo_hord.jpg "Pleo hord")
 
 
 
